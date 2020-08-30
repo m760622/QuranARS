@@ -8,18 +8,100 @@
 
 /* Begin PBXBuildFile section */
 		4F71B1B124C7CB660048F61F /* QuranARSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F71B1B024C7CB660048F61F /* QuranARSApp.swift */; };
-		4F71B1B324C7CB660048F61F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F71B1B224C7CB660048F61F /* ContentView.swift */; };
 		4F71B1B524C7CB680048F61F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F71B1B424C7CB680048F61F /* Assets.xcassets */; };
 		4F71B1B824C7CB680048F61F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F71B1B724C7CB680048F61F /* Preview Assets.xcassets */; };
+		4F71B20B24C7D2120048F61F /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F71B20A24C7D2120048F61F /* PlayerView.swift */; };
+		4F994F3824FB5BEA003035E0 /* 099-Alzalzalah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F1324FB5BE9003035E0 /* 099-Alzalzalah.mp3 */; };
+		4F994F3924FB5BEA003035E0 /* 110-Annasr.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F1424FB5BE9003035E0 /* 110-Annasr.mp3 */; };
+		4F994F3A24FB5BEA003035E0 /* 089-Alfajr.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F1524FB5BE9003035E0 /* 089-Alfajr.mp3 */; };
+		4F994F3B24FB5BEA003035E0 /* 085-Albourouj.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F1624FB5BE9003035E0 /* 085-Albourouj.mp3 */; };
+		4F994F3C24FB5BEA003035E0 /* 086-Attariq.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F1724FB5BE9003035E0 /* 086-Attariq.mp3 */; };
+		4F994F3D24FB5BEA003035E0 /* 101-Alqariah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F1824FB5BE9003035E0 /* 101-Alqariah.mp3 */; };
+		4F994F3E24FB5BEA003035E0 /* 088-Alghashiya.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F1924FB5BE9003035E0 /* 088-Alghashiya.mp3 */; };
+		4F994F3F24FB5BEA003035E0 /* 097-Alqadr.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F1A24FB5BE9003035E0 /* 097-Alqadr.mp3 */; };
+		4F994F4024FB5BEA003035E0 /* 106-Quraish.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F1B24FB5BE9003035E0 /* 106-Quraish.mp3 */; };
+		4F994F4124FB5BEA003035E0 /* 104-Alhumaza.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F1C24FB5BE9003035E0 /* 104-Alhumaza.mp3 */; };
+		4F994F4224FB5BEA003035E0 /* 087-Alala.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F1D24FB5BE9003035E0 /* 087-Alala.mp3 */; };
+		4F994F4324FB5BEA003035E0 /* 081-Attakwir.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F1E24FB5BE9003035E0 /* 081-Attakwir.mp3 */; };
+		4F994F4424FB5BEA003035E0 /* 094-Ashsharh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F1F24FB5BEA003035E0 /* 094-Ashsharh.mp3 */; };
+		4F994F4524FB5BEA003035E0 /* 107-Almaun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F2024FB5BEA003035E0 /* 107-Almaun.mp3 */; };
+		4F994F4624FB5BEA003035E0 /* 083-Almoutaffifin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F2124FB5BEA003035E0 /* 083-Almoutaffifin.mp3 */; };
+		4F994F4724FB5BEA003035E0 /* 109-Alkafiroune.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F2224FB5BEA003035E0 /* 109-Alkafiroune.mp3 */; };
+		4F994F4824FB5BEA003035E0 /* 096-Alalaq.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F2324FB5BEA003035E0 /* 096-Alalaq.mp3 */; };
+		4F994F4924FB5BEA003035E0 /* 113-Alfalaq.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F2424FB5BEA003035E0 /* 113-Alfalaq.mp3 */; };
+		4F994F4A24FB5BEA003035E0 /* 079-Annaziat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F2524FB5BEA003035E0 /* 079-Annaziat.mp3 */; };
+		4F994F4B24FB5BEA003035E0 /* 102-Attakathour.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F2624FB5BEA003035E0 /* 102-Attakathour.mp3 */; };
+		4F994F4C24FB5BEA003035E0 /* 095-Attin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F2724FB5BEA003035E0 /* 095-Attin.mp3 */; };
+		4F994F4D24FB5BEA003035E0 /* 080-Abasa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F2824FB5BEA003035E0 /* 080-Abasa.mp3 */; };
+		4F994F4E24FB5BEA003035E0 /* 098-Albayyinah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F2924FB5BEA003035E0 /* 098-Albayyinah.mp3 */; };
+		4F994F4F24FB5BEA003035E0 /* 078-Annaba.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F2A24FB5BEA003035E0 /* 078-Annaba.mp3 */; };
+		4F994F5024FB5BEA003035E0 /* 090-Albalad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F2B24FB5BEA003035E0 /* 090-Albalad.mp3 */; };
+		4F994F5124FB5BEA003035E0 /* 091-Ashshams.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F2C24FB5BEA003035E0 /* 091-Ashshams.mp3 */; };
+		4F994F5224FB5BEA003035E0 /* 082-Alinfitar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F2D24FB5BEA003035E0 /* 082-Alinfitar.mp3 */; };
+		4F994F5324FB5BEA003035E0 /* 084-Alinshiqaq.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F2E24FB5BEA003035E0 /* 084-Alinshiqaq.mp3 */; };
+		4F994F5424FB5BEA003035E0 /* 103-Alasr.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F2F24FB5BEA003035E0 /* 103-Alasr.mp3 */; };
+		4F994F5524FB5BEA003035E0 /* 105-Alfil.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F3024FB5BEA003035E0 /* 105-Alfil.mp3 */; };
+		4F994F5624FB5BEA003035E0 /* 093-Addhuha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F3124FB5BEA003035E0 /* 093-Addhuha.mp3 */; };
+		4F994F5724FB5BEA003035E0 /* 092-Allayl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F3224FB5BEA003035E0 /* 092-Allayl.mp3 */; };
+		4F994F5824FB5BEA003035E0 /* 108-Alkawtar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F3324FB5BEA003035E0 /* 108-Alkawtar.mp3 */; };
+		4F994F5924FB5BEA003035E0 /* 111-Almasad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F3424FB5BEA003035E0 /* 111-Almasad.mp3 */; };
+		4F994F5A24FB5BEA003035E0 /* 112-Alikhlas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F3524FB5BEA003035E0 /* 112-Alikhlas.mp3 */; };
+		4F994F5B24FB5BEA003035E0 /* 100-Aladiyat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F3624FB5BEA003035E0 /* 100-Aladiyat.mp3 */; };
+		4F994F5C24FB5BEA003035E0 /* 114-Annas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F994F3724FB5BEA003035E0 /* 114-Annas.mp3 */; };
+		4FA965A124CFB7360036D216 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA965A024CFB7360036D216 /* RowView.swift */; };
+		4FA965A324CFB7F70036D216 /* PlayerControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA965A224CFB7F70036D216 /* PlayerControlView.swift */; };
+		4FA965A524CFBE600036D216 /* AudioPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA965A424CFBE600036D216 /* AudioPlayerView.swift */; };
+		4FA965A724CFBF340036D216 /* modulView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA965A624CFBF340036D216 /* modulView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4F71B1AD24C7CB660048F61F /* QuranARS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuranARS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F71B1B024C7CB660048F61F /* QuranARSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranARSApp.swift; sourceTree = "<group>"; };
-		4F71B1B224C7CB660048F61F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4F71B1B424C7CB680048F61F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F71B1B724C7CB680048F61F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4F71B1B924C7CB680048F61F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F71B20A24C7D2120048F61F /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		4F994F1324FB5BE9003035E0 /* 099-Alzalzalah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "099-Alzalzalah.mp3"; sourceTree = "<group>"; };
+		4F994F1424FB5BE9003035E0 /* 110-Annasr.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "110-Annasr.mp3"; sourceTree = "<group>"; };
+		4F994F1524FB5BE9003035E0 /* 089-Alfajr.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "089-Alfajr.mp3"; sourceTree = "<group>"; };
+		4F994F1624FB5BE9003035E0 /* 085-Albourouj.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "085-Albourouj.mp3"; sourceTree = "<group>"; };
+		4F994F1724FB5BE9003035E0 /* 086-Attariq.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "086-Attariq.mp3"; sourceTree = "<group>"; };
+		4F994F1824FB5BE9003035E0 /* 101-Alqariah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "101-Alqariah.mp3"; sourceTree = "<group>"; };
+		4F994F1924FB5BE9003035E0 /* 088-Alghashiya.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "088-Alghashiya.mp3"; sourceTree = "<group>"; };
+		4F994F1A24FB5BE9003035E0 /* 097-Alqadr.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "097-Alqadr.mp3"; sourceTree = "<group>"; };
+		4F994F1B24FB5BE9003035E0 /* 106-Quraish.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "106-Quraish.mp3"; sourceTree = "<group>"; };
+		4F994F1C24FB5BE9003035E0 /* 104-Alhumaza.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "104-Alhumaza.mp3"; sourceTree = "<group>"; };
+		4F994F1D24FB5BE9003035E0 /* 087-Alala.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "087-Alala.mp3"; sourceTree = "<group>"; };
+		4F994F1E24FB5BE9003035E0 /* 081-Attakwir.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "081-Attakwir.mp3"; sourceTree = "<group>"; };
+		4F994F1F24FB5BEA003035E0 /* 094-Ashsharh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "094-Ashsharh.mp3"; sourceTree = "<group>"; };
+		4F994F2024FB5BEA003035E0 /* 107-Almaun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "107-Almaun.mp3"; sourceTree = "<group>"; };
+		4F994F2124FB5BEA003035E0 /* 083-Almoutaffifin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "083-Almoutaffifin.mp3"; sourceTree = "<group>"; };
+		4F994F2224FB5BEA003035E0 /* 109-Alkafiroune.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "109-Alkafiroune.mp3"; sourceTree = "<group>"; };
+		4F994F2324FB5BEA003035E0 /* 096-Alalaq.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "096-Alalaq.mp3"; sourceTree = "<group>"; };
+		4F994F2424FB5BEA003035E0 /* 113-Alfalaq.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "113-Alfalaq.mp3"; sourceTree = "<group>"; };
+		4F994F2524FB5BEA003035E0 /* 079-Annaziat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "079-Annaziat.mp3"; sourceTree = "<group>"; };
+		4F994F2624FB5BEA003035E0 /* 102-Attakathour.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "102-Attakathour.mp3"; sourceTree = "<group>"; };
+		4F994F2724FB5BEA003035E0 /* 095-Attin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "095-Attin.mp3"; sourceTree = "<group>"; };
+		4F994F2824FB5BEA003035E0 /* 080-Abasa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "080-Abasa.mp3"; sourceTree = "<group>"; };
+		4F994F2924FB5BEA003035E0 /* 098-Albayyinah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "098-Albayyinah.mp3"; sourceTree = "<group>"; };
+		4F994F2A24FB5BEA003035E0 /* 078-Annaba.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "078-Annaba.mp3"; sourceTree = "<group>"; };
+		4F994F2B24FB5BEA003035E0 /* 090-Albalad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "090-Albalad.mp3"; sourceTree = "<group>"; };
+		4F994F2C24FB5BEA003035E0 /* 091-Ashshams.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "091-Ashshams.mp3"; sourceTree = "<group>"; };
+		4F994F2D24FB5BEA003035E0 /* 082-Alinfitar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "082-Alinfitar.mp3"; sourceTree = "<group>"; };
+		4F994F2E24FB5BEA003035E0 /* 084-Alinshiqaq.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "084-Alinshiqaq.mp3"; sourceTree = "<group>"; };
+		4F994F2F24FB5BEA003035E0 /* 103-Alasr.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "103-Alasr.mp3"; sourceTree = "<group>"; };
+		4F994F3024FB5BEA003035E0 /* 105-Alfil.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "105-Alfil.mp3"; sourceTree = "<group>"; };
+		4F994F3124FB5BEA003035E0 /* 093-Addhuha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "093-Addhuha.mp3"; sourceTree = "<group>"; };
+		4F994F3224FB5BEA003035E0 /* 092-Allayl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "092-Allayl.mp3"; sourceTree = "<group>"; };
+		4F994F3324FB5BEA003035E0 /* 108-Alkawtar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "108-Alkawtar.mp3"; sourceTree = "<group>"; };
+		4F994F3424FB5BEA003035E0 /* 111-Almasad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "111-Almasad.mp3"; sourceTree = "<group>"; };
+		4F994F3524FB5BEA003035E0 /* 112-Alikhlas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "112-Alikhlas.mp3"; sourceTree = "<group>"; };
+		4F994F3624FB5BEA003035E0 /* 100-Aladiyat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "100-Aladiyat.mp3"; sourceTree = "<group>"; };
+		4F994F3724FB5BEA003035E0 /* 114-Annas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "114-Annas.mp3"; sourceTree = "<group>"; };
+		4FA965A024CFB7360036D216 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		4FA965A224CFB7F70036D216 /* PlayerControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerControlView.swift; sourceTree = "<group>"; };
+		4FA965A424CFBE600036D216 /* AudioPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerView.swift; sourceTree = "<group>"; };
+		4FA965A624CFBF340036D216 /* modulView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modulView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +115,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F4B4A0E24FAEDDC00A53B1F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4F71B1B024C7CB660048F61F /* QuranARSApp.swift */,
+				4F71B20A24C7D2120048F61F /* PlayerView.swift */,
+				4FA965A424CFBE600036D216 /* AudioPlayerView.swift */,
+				4FA965A224CFB7F70036D216 /* PlayerControlView.swift */,
+				4FA965A624CFBF340036D216 /* modulView.swift */,
+				4FA965A024CFB7360036D216 /* RowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		4F71B1A424C7CB660048F61F = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +147,8 @@
 		4F71B1AF24C7CB660048F61F /* QuranARS */ = {
 			isa = PBXGroup;
 			children = (
-				4F71B1B024C7CB660048F61F /* QuranARSApp.swift */,
-				4F71B1B224C7CB660048F61F /* ContentView.swift */,
+				4F4B4A0E24FAEDDC00A53B1F /* Views */,
+				4F71B1BF24C7CEC20048F61F /* Media */,
 				4F71B1B424C7CB680048F61F /* Assets.xcassets */,
 				4F71B1B924C7CB680048F61F /* Info.plist */,
 				4F71B1B624C7CB680048F61F /* Preview Content */,
@@ -67,6 +162,50 @@
 				4F71B1B724C7CB680048F61F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4F71B1BF24C7CEC20048F61F /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				4F994F2A24FB5BEA003035E0 /* 078-Annaba.mp3 */,
+				4F994F2524FB5BEA003035E0 /* 079-Annaziat.mp3 */,
+				4F994F2824FB5BEA003035E0 /* 080-Abasa.mp3 */,
+				4F994F1E24FB5BE9003035E0 /* 081-Attakwir.mp3 */,
+				4F994F2D24FB5BEA003035E0 /* 082-Alinfitar.mp3 */,
+				4F994F2124FB5BEA003035E0 /* 083-Almoutaffifin.mp3 */,
+				4F994F2E24FB5BEA003035E0 /* 084-Alinshiqaq.mp3 */,
+				4F994F1624FB5BE9003035E0 /* 085-Albourouj.mp3 */,
+				4F994F1724FB5BE9003035E0 /* 086-Attariq.mp3 */,
+				4F994F1D24FB5BE9003035E0 /* 087-Alala.mp3 */,
+				4F994F1924FB5BE9003035E0 /* 088-Alghashiya.mp3 */,
+				4F994F1524FB5BE9003035E0 /* 089-Alfajr.mp3 */,
+				4F994F2B24FB5BEA003035E0 /* 090-Albalad.mp3 */,
+				4F994F2C24FB5BEA003035E0 /* 091-Ashshams.mp3 */,
+				4F994F3224FB5BEA003035E0 /* 092-Allayl.mp3 */,
+				4F994F3124FB5BEA003035E0 /* 093-Addhuha.mp3 */,
+				4F994F1F24FB5BEA003035E0 /* 094-Ashsharh.mp3 */,
+				4F994F2724FB5BEA003035E0 /* 095-Attin.mp3 */,
+				4F994F2324FB5BEA003035E0 /* 096-Alalaq.mp3 */,
+				4F994F1A24FB5BE9003035E0 /* 097-Alqadr.mp3 */,
+				4F994F2924FB5BEA003035E0 /* 098-Albayyinah.mp3 */,
+				4F994F1324FB5BE9003035E0 /* 099-Alzalzalah.mp3 */,
+				4F994F3624FB5BEA003035E0 /* 100-Aladiyat.mp3 */,
+				4F994F1824FB5BE9003035E0 /* 101-Alqariah.mp3 */,
+				4F994F2624FB5BEA003035E0 /* 102-Attakathour.mp3 */,
+				4F994F2F24FB5BEA003035E0 /* 103-Alasr.mp3 */,
+				4F994F1C24FB5BE9003035E0 /* 104-Alhumaza.mp3 */,
+				4F994F3024FB5BEA003035E0 /* 105-Alfil.mp3 */,
+				4F994F1B24FB5BE9003035E0 /* 106-Quraish.mp3 */,
+				4F994F2024FB5BEA003035E0 /* 107-Almaun.mp3 */,
+				4F994F3324FB5BEA003035E0 /* 108-Alkawtar.mp3 */,
+				4F994F2224FB5BEA003035E0 /* 109-Alkafiroune.mp3 */,
+				4F994F1424FB5BE9003035E0 /* 110-Annasr.mp3 */,
+				4F994F3424FB5BEA003035E0 /* 111-Almasad.mp3 */,
+				4F994F3524FB5BEA003035E0 /* 112-Alikhlas.mp3 */,
+				4F994F2424FB5BEA003035E0 /* 113-Alfalaq.mp3 */,
+				4F994F3724FB5BEA003035E0 /* 114-Annas.mp3 */,
+			);
+			path = Media;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +234,9 @@
 		4F71B1A524C7CB660048F61F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
@@ -126,8 +268,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F994F3D24FB5BEA003035E0 /* 101-Alqariah.mp3 in Resources */,
+				4F994F5124FB5BEA003035E0 /* 091-Ashshams.mp3 in Resources */,
+				4F994F5024FB5BEA003035E0 /* 090-Albalad.mp3 in Resources */,
+				4F994F5A24FB5BEA003035E0 /* 112-Alikhlas.mp3 in Resources */,
+				4F994F4924FB5BEA003035E0 /* 113-Alfalaq.mp3 in Resources */,
+				4F994F4324FB5BEA003035E0 /* 081-Attakwir.mp3 in Resources */,
+				4F994F4624FB5BEA003035E0 /* 083-Almoutaffifin.mp3 in Resources */,
 				4F71B1B824C7CB680048F61F /* Preview Assets.xcassets in Resources */,
+				4F994F4F24FB5BEA003035E0 /* 078-Annaba.mp3 in Resources */,
 				4F71B1B524C7CB680048F61F /* Assets.xcassets in Resources */,
+				4F994F4124FB5BEA003035E0 /* 104-Alhumaza.mp3 in Resources */,
+				4F994F4024FB5BEA003035E0 /* 106-Quraish.mp3 in Resources */,
+				4F994F4E24FB5BEA003035E0 /* 098-Albayyinah.mp3 in Resources */,
+				4F994F4D24FB5BEA003035E0 /* 080-Abasa.mp3 in Resources */,
+				4F994F3B24FB5BEA003035E0 /* 085-Albourouj.mp3 in Resources */,
+				4F994F4A24FB5BEA003035E0 /* 079-Annaziat.mp3 in Resources */,
+				4F994F5224FB5BEA003035E0 /* 082-Alinfitar.mp3 in Resources */,
+				4F994F5324FB5BEA003035E0 /* 084-Alinshiqaq.mp3 in Resources */,
+				4F994F3F24FB5BEA003035E0 /* 097-Alqadr.mp3 in Resources */,
+				4F994F4724FB5BEA003035E0 /* 109-Alkafiroune.mp3 in Resources */,
+				4F994F3A24FB5BEA003035E0 /* 089-Alfajr.mp3 in Resources */,
+				4F994F4B24FB5BEA003035E0 /* 102-Attakathour.mp3 in Resources */,
+				4F994F5424FB5BEA003035E0 /* 103-Alasr.mp3 in Resources */,
+				4F994F5524FB5BEA003035E0 /* 105-Alfil.mp3 in Resources */,
+				4F994F4224FB5BEA003035E0 /* 087-Alala.mp3 in Resources */,
+				4F994F4424FB5BEA003035E0 /* 094-Ashsharh.mp3 in Resources */,
+				4F994F3924FB5BEA003035E0 /* 110-Annasr.mp3 in Resources */,
+				4F994F5C24FB5BEA003035E0 /* 114-Annas.mp3 in Resources */,
+				4F994F5824FB5BEA003035E0 /* 108-Alkawtar.mp3 in Resources */,
+				4F994F4824FB5BEA003035E0 /* 096-Alalaq.mp3 in Resources */,
+				4F994F5724FB5BEA003035E0 /* 092-Allayl.mp3 in Resources */,
+				4F994F4C24FB5BEA003035E0 /* 095-Attin.mp3 in Resources */,
+				4F994F3C24FB5BEA003035E0 /* 086-Attariq.mp3 in Resources */,
+				4F994F3E24FB5BEA003035E0 /* 088-Alghashiya.mp3 in Resources */,
+				4F994F5B24FB5BEA003035E0 /* 100-Aladiyat.mp3 in Resources */,
+				4F994F5924FB5BEA003035E0 /* 111-Almasad.mp3 in Resources */,
+				4F994F3824FB5BEA003035E0 /* 099-Alzalzalah.mp3 in Resources */,
+				4F994F4524FB5BEA003035E0 /* 107-Almaun.mp3 in Resources */,
+				4F994F5624FB5BEA003035E0 /* 093-Addhuha.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +317,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F71B1B324C7CB660048F61F /* ContentView.swift in Sources */,
+				4FA965A524CFBE600036D216 /* AudioPlayerView.swift in Sources */,
+				4FA965A124CFB7360036D216 /* RowView.swift in Sources */,
+				4F71B20B24C7D2120048F61F /* PlayerView.swift in Sources */,
 				4F71B1B124C7CB660048F61F /* QuranARSApp.swift in Sources */,
+				4FA965A724CFBF340036D216 /* modulView.swift in Sources */,
+				4FA965A324CFB7F70036D216 /* PlayerControlView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +451,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20200830;
 				DEVELOPMENT_ASSET_PATHS = "\"QuranARS/Preview Content\"";
 				DEVELOPMENT_TEAM = N77986V24E;
 				ENABLE_PREVIEWS = YES;
@@ -277,6 +461,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.014410110;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nmds.QuranARS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -290,6 +475,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20200830;
 				DEVELOPMENT_ASSET_PATHS = "\"QuranARS/Preview Content\"";
 				DEVELOPMENT_TEAM = N77986V24E;
 				ENABLE_PREVIEWS = YES;
@@ -299,6 +485,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.014410110;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nmds.QuranARS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
